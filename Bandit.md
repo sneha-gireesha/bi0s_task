@@ -15,8 +15,12 @@ level 0:ssh bandit0@bandit.labs.overthewire.org -p2220
 
 Password given : bandit0
 
-resources used :[ssh]( https://www.youtube.com/watch?v=Ei3nU-fHI6E)
+resources used :
+
+[ssh]( https://www.youtube.com/watch?v=Ei3nU-fHI6E)
+
 [install and enable ssh]( https://www.youtube.com/watch?v=F1_fkOYgu8g)
+
 [install and enable ssh](https://www.youtube.com/watch?v=Wlmne44M6fQ)
 
 
