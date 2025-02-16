@@ -42,6 +42,10 @@ Password found for next level : ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 ![bandit 1](<bandit level 1.png>)
 
+resources used :[ssh]( https://www.youtube.com/watch?v=Ei3nU-fHI6E)
+[install and enable ssh]( https://www.youtube.com/watch?v=F1_fkOYgu8g)
+[install and enable ssh](https://www.youtube.com/watch?v=Wlmne44M6fQ)
+
 ## Bandit level 1 to level 2
 
 Hint  :open the file called “-” 
