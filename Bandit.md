@@ -74,7 +74,10 @@ Hint : open the file called spaces to get the password for next level
                                                             
 Learning outcome:
 * ```Spaces in this filename``` is the file name so used ” ” 
-Found an alternative way:”\” after each word
+* Found an alternative way:”\” after each word : "space\ in\t his\ filename
+* By using a backslash before a space , you're telling the system to treat the     space  as part of the 
+name rather than as a  special symbol.
+
 * Flag:
 level 3: ssh bandit3@bandit.labs.overthewire.org -p2220
 Password found for next level: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
@@ -90,7 +93,7 @@ Hint : open the hidden file  to get the password for next level
 ### Tools and techniques used:
 * Used command like ls -a 
 ### Learning outcome:
-* ls -a is used to list out all hidden files in a network
+* ls -a is used to list out all hidden files 
 
 Flag:
 
