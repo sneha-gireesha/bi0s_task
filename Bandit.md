@@ -15,7 +15,10 @@ level 0:ssh bandit0@bandit.labs.overthewire.org -p2220
 
 Password given : bandit0
 
-resource used :  [yt](https://www.youtube.com/watch?v=rfYZR6opTVg)
+resources used :[ssh]( https://www.youtube.com/watch?v=Ei3nU-fHI6E)
+[install and enable ssh]( https://www.youtube.com/watch?v=F1_fkOYgu8g)
+[install and enable ssh](https://www.youtube.com/watch?v=Wlmne44M6fQ)
+
 
 ![bandit 0](<bandit level 0 b.png>)
 
@@ -41,10 +44,6 @@ level 1: ssh bandit1@bandit.labs.overthewire.org -p2220
 Password found for next level : ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 ![bandit 1](<bandit level 1.png>)
-
-resources used :[ssh]( https://www.youtube.com/watch?v=Ei3nU-fHI6E)
-[install and enable ssh]( https://www.youtube.com/watch?v=F1_fkOYgu8g)
-[install and enable ssh](https://www.youtube.com/watch?v=Wlmne44M6fQ)
 
 ## Bandit level 1 to level 2
 
