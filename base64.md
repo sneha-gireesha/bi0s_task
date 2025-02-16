@@ -1,13 +1,15 @@
-# BASE64
+ # BASE64
 
 * Base64 is an encoding scheme that converts binary data (like images, files, or even text) into a text-based representation using a set of  64 printable ASCII characters.
-
+  
+*operation of converting data into ascii text format 
+  
 * can be easily shared, especially in places like emails or URLs where binary data doesn’t work well.
 
 
 ### Base64 Encoding:
 
-Base64 encoding takes a bunch of data ( string or file) and turns it into a text format, using  readable characters.
+base64 is the operation of  converting  data into ascii text format so that it can be transported 
 
 readable character :
 * Letters (A-Z, a-z)
@@ -38,44 +40,38 @@ This gives the resulting encoded string
 
 #### Decoding is the reverse of encoding
 
-#### To encode data into Base64:
-eg: wap to encode a message to Base64 in Python
-```python 
-import base64
+* process: converting each character to its ASCII value, then grouping the bits into 6-bit chunks, looking up the corresponding Base64 character for each chunk, and finally concatenating the results with padding if necessary
 
-# Original string
-original_string = "Hello, World!"
-
-# Step 1: Convert the string to bytes
-encoded_string = base64.b64encode(original_string.encode('utf-8'))
-
-# Step 2: Convert the byte result  to string for easy viewing
-encoded_string_str = encoded_string.decode('utf-8')
-
-print(f"Encoded: {encoded_string_str}")
-
-```
-decoding :
 ```python
-import base64
+def string_to_base64(input_string):
+    # Base64 Alphabet
+    base64_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+    
+    # Step 1: Convert string to binary
+    binary_str = ''.join(format(ord(c), '08b') for c in input_string)
+    
+    # Step 2: Pad the binary string to be divisible by 6
+    padding = len(binary_str) % 6
+    if padding != 0:
+        binary_str += '0' * (6 - padding)
+    
+    # Step 3: Break the binary string into 6-bit chunks
+    chunks = [binary_str[i:i+6] for i in range(0, len(binary_str), 6)]
+    
+    # Step 4: Map each 6-bit chunk to a Base64 character
+    base64_string = ''.join(base64_chars[int(chunk, 2)] for chunk in chunks)
+    
+    # Step 5: Add padding (=) to the end if needed
+    padding_count = (4 - len(base64_string) % 4) % 4
+    base64_string += '=' * padding_count
+    
+    return base64_string
 
-# Base64 encoded string
-base64_string = "SGVsbG8gd29ybGQh" 
-
-# Decode the Base64 string
-decoded_bytes = base64.b64decode(base64_string)
-
-# Convert the decoded bytes to a string
-decoded_string = decoded_bytes.decode('utf-8')
-
-print(decoded_string)
+# Example usage
+input_string = "hello"
+encoded_string = string_to_base64(input_string)
+print(encoded_string)
 ```
-### UTF-8 
-* Unicode Transformation Format - 8-bit
-
-* UTF-8 is a way of converting text (such as characters, symbols, etc.) into binary data
-
-* UTF-8 is a common way to turn text into binary, so if you want to Base64-encode text, it first needs to be turned into binary using UTF-8. This helps make sure that all characters (including special ones like emojis) are correctly converted.
 
 string --->binary--->base64
 
