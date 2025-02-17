@@ -300,7 +300,7 @@ Used the command :
 * Rename the file using mv  
 * If it is gzip compressed data we  move the file from file name to filename.gz then decompress by  gzip -d filename.gz 
 * If it is bzip2 compressed data ,convert the file to file.bz2 then use bzip2 -d filename.bz2 to decompress     
-* tar -xf extract an archive to current direcotry  
+* tar -xf extract an archive to current direcotry   tar xf command is used to extractfiles from a .tar archive. It opens up the .tar file and puts all the files inside it into your current folder.
 
 Flag:
 
