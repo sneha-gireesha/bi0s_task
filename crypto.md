@@ -86,7 +86,7 @@ XOR a string:
 * convert these integer back to string ``` chr (ord(charac)^13)```
 
 ## XOR properties
-* got to know about the main properties of XOR operator
+* got to know about some properties of XOR operator
 * here the hex is decoded into bytes ,which is then XOR into flag
 
 ![xor properties](<xor properties.png>)
