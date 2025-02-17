@@ -9,18 +9,6 @@
 
 base64 is the operation of  converting  data into ascii text format so that it can be transported 
 
-readable character :
-* Letters (A-Z, a-z)
-* Digits (0-9)
-* Punctuation marks (e.g., ., ,, !, ?)
-
-
-non readable character:
-Whitespace characters like 
-* space (' ')  
-* tab (\t)
-* newline (\n)
-
 ## Base64 encoding working :
 
 ### Input Data:
