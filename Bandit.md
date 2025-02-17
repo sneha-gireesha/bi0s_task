@@ -240,9 +240,10 @@ password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 Hint :have to open data.txt, Base64 encoded data
 
 ### Tools and techniques used:
-Used the command | base64 –decode
+pipe ``` | ```
                                                             
 ### Learning outcome:
+*  pipe command | in Linux takes the output of one command and sends it as input to another command
 ```cat data.txt | base64  – decode ``` is used to decode the encoded data in base64
                               
 Flag:
