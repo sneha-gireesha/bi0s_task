@@ -4,8 +4,6 @@
   
 *operation of converting data into ascii text format 
   
-* can be easily shared, especially in places like emails or URLs where binary data doesn’t work well.
-
 
 ### Base64 Encoding:
 
