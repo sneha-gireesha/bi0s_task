@@ -244,7 +244,8 @@ pipe ``` | ```
                                                             
 ### Learning outcome:
 *  pipe command | in Linux takes the output of one command and sends it as input to another command
-```cat data.txt | base64  – decode ``` is used to decode the encoded data in base64
+  
+* ```cat data.txt | base64  – decode ``` is used to decode the encoded data in base64
                               
 Flag:
 
