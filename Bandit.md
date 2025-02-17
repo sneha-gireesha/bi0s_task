@@ -143,10 +143,13 @@ Hint : have to open a file with
 * Used command like cat < : to open files
 * file : used to find the type of file in the  direcort              
 ### Learning outcome:
-* Changed directory to inhere and listed out all the files using “ls” then                                                  searched (find)for * a file which is readable(.-readable) ,
+* Changed directory to inhere and listed out all the files using “ls” then searched (find)for * a file which is readable(.-readable) ,
 with a file size of  1033 bytes(-size 1033c) ```find . -readable -size 1033c ```
+
 Here ```.``` used to look into files 
+
      ```\`` used to look into folders and files
+     
 Flag:
 
 level5:ssh bandit5@bandit.labs.overthewire.org -p2220
