@@ -5,7 +5,7 @@
 ### ENCODING 
 ## ASCII
 * American Standard code for Information Interchange
-* used for encoding  data
+* ascii is a character encoding system
 * ```ord()``` function works to obtainthe ASCII value of a character
 
 ```python
