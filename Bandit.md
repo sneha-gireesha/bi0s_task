@@ -288,7 +288,7 @@ Used the command :
 * mv : to move or rename
 * gzip
 * bzip2
-* tar: to view and extract files from archives
+* tar
 * -xf 
                                                       
 ## Learning outcome:
