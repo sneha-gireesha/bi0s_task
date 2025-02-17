@@ -148,7 +148,7 @@ with a file size of  1033 bytes(-size 1033c) ```find . -readable -size 1033c ```
 
 Here ```.``` used to look into files 
 
-     ```\`` used to look into folders and files
+ ```\`` used to look into folders and files
      
 Flag:
 
