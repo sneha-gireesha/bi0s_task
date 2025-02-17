@@ -335,7 +335,7 @@ Hint  :have to open  /etc/bandit_pass/bandit14
 ### Learning outcome:
 opened the file given in level 13 to 14 ``` /etc/bandit_pass/bandit14``` 
 nd got the password
-* nc is a tool that allows you to send and receive data over a network. 
+
 *netcat is where you can send and receive messages or files easily between computers.
 
 Flag:
